@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"surface-container-high":"#eae8e4","secondary-fixed-dim":"#ffb77d","secondary":"#904d00","primary-container":"#991b1b","on-tertiary":"#ffffff","surface-container":"#efeeea","on-secondary-fixed":"#2f1500","tertiary-container":"#4b497b","on-tertiary-container":"#bebaf4","error-container":"#ffdad6","on-surface-variant":"#59413e","on-secondary-fixed-variant":"#6e3900","on-surface":"#1b1c1a","on-error-container":"#93000a","surface-tint":"#b02d29","secondary-fixed":"#ffdcc3","surface-bright":"#fbf9f5","surface-variant":"#e4e2de","primary-fixed":"#ffdad6","on-tertiary-fixed":"#181445","on-primary-fixed":"#410002","error":"#ba1a1a","surface-container-highest":"#e4e2de","on-secondary-container":"#663500","primary-fixed-dim":"#ffb4ac","inverse-on-surface":"#f2f0ed","outline":"#8d706d","on-primary-container":"#ffaaa1","background":"#fbf9f5","primary":"#760009","on-tertiary-fixed-variant":"#444173","tertiary":"#343262","on-error":"#ffffff","surface-container-lowest":"#ffffff","surface-container-low":"#f5f3ef","surface-dim":"#dbdad6","surface":"#fbf9f5","on-secondary":"#ffffff","inverse-primary":"#ffb4ac","on-primary-fixed-variant":"#8e1214","on-primary":"#ffffff","tertiary-fixed":"#e3dfff","tertiary-fixed-dim":"#c4c1fb","secondary-container":"#fe932c","outline-variant":"#e1bfbb","inverse-surface":"#30312e","on-background":"#1b1c1a"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin":"3rem","space-lg":"1.5rem","space-xs":"0.25rem","space-xl":"2.5rem","margin-mobile":"1.25rem","space-sm":"0.5rem","gutter-mobile":"1rem","gutter":"1.5rem","space-md":"1rem"},"fontFamily":{"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"body-xl":["Plus Jakarta Sans"],"display-lg":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"display-lg-mobile":["Playfair Display"],"headline-xl":["Playfair Display"]},"fontSize":{"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"500"}],"body-xl":["18px",{"lineHeight":"28px","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"600"}],"display-lg-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/95 backdrop-blur-xl shadow-[0_4px_20px_rgba(153,27,27,0.06)]"><div class="h-1 bg-gradient-to-r from-secondary-container via-secondary to-primary"></div><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="JK Music Club Academy Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUGVMNtK2HqIToabIUH2-hQiriFuLP_550qowix1FxXXzagZGYf61veqESb6zVXLzDfq2-Doz5JWedRXiosMJ6LlIfsRc1ZQuPCTZjgurY-WCBs8bXw6nnY95jv1R1-Dci-Ch84WCKncuu1QijMWjlqN3oypzZdRBSWWuy_bn88Ibra9R3Sk8JKvCTpsAdx2jDb4LLQ0d0kR0a8artlGwVaMMoo95y-kna1uX0rw6N"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight leading-none">JK Music Club</span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest mt-space-xs">Academy of Indian Classical &amp; Contemporary Music | Est. 1984</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-semibold border-b-2 border-primary pb-1"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors whitespace-nowrap" data-path="home" href="#">Home (Mukhya)</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors whitespace-nowrap" data-path="courses-ragas" href="#">Courses &amp; Ragas</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors whitespace-nowrap" data-path="faculty-gurus" href="#">Faculty &amp; Gurus</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors whitespace-nowrap" data-path="admissions-riyaz-trial" href="#">Admissions &amp; Riyaz Trial</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors whitespace-nowrap" data-path="events-baithaks" href="#">Events &amp; Baithaks</a></nav><div class="flex items-center gap-space-md"><div class="relative hidden lg:block w-48 xl:w-56"><span class="material-symbols-outlined absolute left-space-sm top-1/2 -translate-y-1/2 text-on-surface-variant text-base">search</span><input class="w-full pl-8 pr-space-sm py-1.5 bg-surface-container-low rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant/70 focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="Search ragas, gurus..." type="text"/></div><button class="hidden sm:flex items-center gap-1.5 px-space-sm py-1.5 bg-tertiary text-on-tertiary rounded-lg shadow-sm hover:bg-tertiary-container transition-all" type="button"><span class="material-symbols-outlined text-secondary-fixed text-base animate-pulse">graphic_eq</span><span class="font-label-sm text-label-sm text-on-tertiary whitespace-nowrap">Tanpura D# / Sa</span></button><a class="px-space-md py-2 bg-secondary-container hover:bg-secondary text-on-secondary rounded-lg font-label-md text-label-md shadow-[0_4px_16px_rgba(254,147,44,0.3)] transition-all whitespace-nowrap" data-path="admissions-riyaz-trial" href="#">Book Free Trial Class</a><div class="shrink-0 flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-secondary/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRkFMsDVxAbZwMRbDK324Aoli52_4WHu9zzwfEPzRw-TvkeWoB1LK8fdLEfGgRG4Ez1xX9nEzLhpKHsB40nk8WqrYLYSMNK5FtzS6mH_2U9cj6w94MDlsfvzoBmsJwUaZIjC7P6VJPhM9MIVO3bnLYoC66pJU-FrHXsgcG16tzb6me9UgXMxkeCsq0sjRgU2BmFb9I7OdsWf1A5CIvc27O8X4A-iKgg-XwezTgK7f8"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Ambient Banner & Header Section -->
+<section class="relative w-full px-margin-mobile md:px-margin pt-space-xl pb-space-lg bg-surface overflow-hidden">
+<div class="absolute -top-32 right-0 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 left-[-10%] w-72 h-72 rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row md:items-end justify-between gap-space-lg relative z-10">
+<div class="flex flex-col max-w-2xl">
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="inline-block w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Gandharva Mahavidyalaya Affiliated Pedagogy</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl md:text-display-lg font-bold text-primary tracking-tight leading-tight">
+          Our Sangeet Curriculum &amp; Raga Disciplines
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-sm leading-relaxed">
+          Structured Gandharva-accredited courses from <span class="text-primary font-semibold">Prathamik (Beginner)</span> to <span class="text-primary font-semibold">Visharad (Mastery)</span> across Vocal, Instrumental, and Taal traditions nurtured in authentic Guru-Shishya parampara.
+        </p>
+</div>
+<!-- Quick Stats Pill Showcase -->
+<div class="flex flex-wrap md:flex-col gap-space-sm shrink-0 bg-surface-container-low p-space-md rounded-xl shadow-sm border border-secondary-fixed/30">
+<div class="flex items-center gap-space-sm pr-space-md">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-xl">school</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-primary font-bold">8+ Disciplines</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Vocal, Tantra &amp; Avanaddha</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-tertiary/10 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-xl">workspace_premium</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm text-tertiary font-bold">4-Tier Certification</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Prathamik to Visharad Degrees</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Swara Scale Strip -->
+<div class="max-w-6xl mx-auto mt-space-xl pt-space-md border-t border-secondary-fixed/40">
+<div class="flex items-center justify-between flex-wrap gap-space-xs text-on-surface-variant">
+<span class="font-label-sm text-label-sm tracking-wider uppercase text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">equalizer</span> Saptak Swara Base
+        </span>
+<div class="flex items-center gap-1.5 md:gap-3">
+<span class="px-2 py-0.5 rounded text-xs font-bold bg-primary text-on-primary shadow-sm">Sa · Shadja</span>
+<span class="text-secondary/60 text-xs">→</span>
+<span class="px-2 py-0.5 rounded text-xs font-medium bg-surface-container text-on-surface">Re · Rishabh</span>
+<span class="text-secondary/60 text-xs">→</span>
+<span class="px-2 py-0.5 rounded text-xs font-medium bg-surface-container text-on-surface">Ga · Gandhara</span>
+<span class="text-secondary/60 text-xs">→</span>
+<span class="px-2 py-0.5 rounded text-xs font-medium bg-surface-container text-on-surface">Ma · Madhyama</span>
+<span class="text-secondary/60 text-xs">→</span>
+<span class="px-2 py-0.5 rounded text-xs font-medium bg-surface-container text-on-surface">Pa · Panchama</span>
+<span class="text-secondary/60 text-xs">→</span>
+<span class="px-2 py-0.5 rounded text-xs font-medium bg-surface-container text-on-surface">Dha · Dhaivata</span>
+<span class="text-secondary/60 text-xs">→</span>
+<span class="px-2 py-0.5 rounded text-xs font-medium bg-surface-container text-on-surface">Ni · Nishada</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary italic">Tuning: Bilawal Thaat (Natural Major)</span>
+</div>
+</div>
+</section>
+<!-- Interactive Filter Tabs -->
+<section class="w-full px-margin-mobile md:px-margin py-space-md bg-surface-container-low border-y border-surface-container-high sticky top-20 z-40 backdrop-blur-md bg-surface-container-low/95">
+<div class="max-w-6xl mx-auto flex items-center justify-between gap-space-md overflow-x-auto scrollbar-none py-1">
+<div class="flex items-center gap-2 shrink-0" id="filterButtonGroup">
+<button class="filter-btn active-tab px-space-md py-1.5 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm transition-all duration-200" data-filter="all" onclick="filterCourses('all')">
+          All Disciplines
+        </button>
+<button class="filter-btn px-space-md py-1.5 rounded-full font-label-md text-label-md bg-surface hover:bg-secondary-fixed/40 text-on-surface transition-all duration-200" data-filter="vocal" onclick="filterCourses('vocal')">
+          Classical Vocal
+        </button>
+<button class="filter-btn px-space-md py-1.5 rounded-full font-label-md text-label-md bg-surface hover:bg-secondary-fixed/40 text-on-surface transition-all duration-200" data-filter="strings" onclick="filterCourses('strings')">
+          Strings &amp; Melodic
+        </button>
+<button class="filter-btn px-space-md py-1.5 rounded-full font-label-md text-label-md bg-surface hover:bg-secondary-fixed/40 text-on-surface transition-all duration-200" data-filter="percussion" onclick="filterCourses('percussion')">
+          Percussion &amp; Rhythm
+        </button>
+<button class="filter-btn px-space-md py-1.5 rounded-full font-label-md text-label-md bg-surface hover:bg-secondary-fixed/40 text-on-surface transition-all duration-200" data-filter="wind" onclick="filterCourses('wind')">
+          Flute &amp; Wind
+        </button>
+<button class="filter-btn px-space-md py-1.5 rounded-full font-label-md text-label-md bg-surface hover:bg-secondary-fixed/40 text-on-surface transition-all duration-200" data-filter="sugam" onclick="filterCourses('sugam')">
+          Sugam Sangeet &amp; Ghazal
+        </button>
+</div>
+<div class="hidden lg:flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm shrink-0">
+<span class="material-symbols-outlined text-sm text-secondary">tune</span>
+<span>Showing <strong class="text-primary font-bold" id="courseCount">8</strong> Courses</span>
+</div>
+</div>
+</section>
+<!-- Courses Grid Section -->
+<section class="w-full px-margin-mobile md:px-margin py-space-xl bg-surface">
+<div class="max-w-6xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="coursesGrid">
+<!-- Card 1: Hindustani Classical Vocal -->
+<div class="course-card flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="vocal">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A maestro performing Hindustani Classical Vocal Khayal in a warm amber auditorium, with authentic tanpura resonance, golden stage lighting, deep sandalwood hues, and devotional atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuByb5honlJmmmS18Djs5_0W-j1FtgPxq1ic7bH8NE7FbjT6jMbFVYjDe1x5HdGzkrkR4SMR7dbLOeORxnW-WNvMi8mJvimPvvD07XhBaLevnsIy6m9ELB63nOWe0-6PPa1zeH3Frj3mAb1bC6ixNZaJQTwAEdnM424oo3Fi4vkl31osB7O8j_FS4BY5eS4aMOYQ5pKxiHWlloFPhf5gBCRTxAIPpJspIrqvZ9fKzxCY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-0.5 rounded shadow">Vocal</span>
+<span class="bg-secondary text-on-secondary font-label-sm text-label-sm px-2 py-0.5 rounded shadow">Khayal &amp; Tarana</span>
+</div>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm px-2 py-0.5 rounded text-primary font-semibold">
+              3-Year Degree Track
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="text-secondary font-medium">Gharana: Gwalior &amp; Kirana</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary-container">alarm</span> Daily Riyaz</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary group-hover:text-secondary transition-colors">
+                Hindustani Classical Vocal
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Foundational voice culturing, Swara Sadhana, and comprehensive training in Vilambit &amp; Drut Khayal bandishes, Sargam, Taan patterns, and Tarana.
+              </p>
+<!-- Ragas Covered -->
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold block mb-1">Core Ragas Explored:</span>
+<div class="flex flex-wrap gap-1">
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Raga Bhairav</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Yaman</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Bhupali</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Kafi</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Bageshri</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Progression</span>
+<span class="font-label-md text-label-md text-primary font-bold">Prathamik to Visharad</span>
+</div>
+<a class="px-space-md py-1.5 bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-all shadow-sm" data-path="admissions-riyaz-trial" href="#">
+                Enrol Course
+              </a>
+</div>
+</div>
+</div>
+<!-- Card 2: Sitar & Sarod Tantra -->
+<div class="course-card flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="strings">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close-up of polished teakwood Indian Sitar strings and bone bridge with brass sympathetic pegs, soft dramatic studio lighting showing intricate craft details and carved floral patterns." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsyk8YR-xjj5D2ueNjA22oS7111N8LwKLGfIB8kJ3jUydp4P0eefIJSINC0J0mUK7voWzGFVH55vtGLYBlr2LL5wtqnorYb-fC3WHfB0DBs2k1WEynfBLnRFsw9caFRe-SDvw8N1U73BcyJcnDhILbkSOhMaFgyX0vK85W2gL0nQ1LD0w0ixWHAT7Uh-xWEjz9HOZkXsnaLhOToIW6d-2TNssUPGIm0deMfDhhYh1k"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tertiary-container/80 via-transparent to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="bg-tertiary text-on-tertiary font-label-sm text-label-sm px-2.5 py-0.5 rounded shadow">Strings</span>
+<span class="bg-secondary-container text-on-secondary font-label-sm text-label-sm px-2 py-0.5 rounded shadow">Tantrakari</span>
+</div>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm px-2 py-0.5 rounded text-secondary font-semibold">
+              Maihar &amp; Senia Parampara
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="text-secondary font-medium">Posture, Da &amp; Ra Bols</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary-container">timelapse</span> 2 Yrs +</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary group-hover:text-secondary transition-colors">
+                Sitar &amp; Sarod Tantra
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Comprehensive training in Meend pulling up to 5 swaras, intricate Gamak strokes, Jod-Alaap development, and lightning Jhala tempos across traditional ragas.
+              </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold block mb-1">Fretwork &amp; Finger Mastery:</span>
+<div class="flex flex-wrap gap-1">
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Mizrab Technique</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Alap Improvisation</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Gat Compositions</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Jhala Climax</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Accreditation</span>
+<span class="font-label-md text-label-md text-primary font-bold">Madhyama to Visharad</span>
+</div>
+<a class="px-space-md py-1.5 bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-all shadow-sm" data-path="admissions-riyaz-trial" href="#">
+                Enrol Course
+              </a>
+</div>
+</div>
+</div>
+<!-- Card 3: Tabla Shastra & Bols -->
+<div class="course-card flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="percussion">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Pair of classical Indian Tabla and Bayan drums resting on ornate red velvet rings with tuning hammer, dark mahogany wood, high-contrast studio setting honoring rhythm discipline." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB__8ELfXhN55AI2AFoBL1pj3p5nCoPGVbcUJFdo6YPH6ulLQu15Wb7oHLRPR86JOR0B345a3UZe4xFYXlzsS9Td1ITiUymJjGpHXftFH6jaHMErLgLgCH1ikwl9b5RWRx8JYESKhu_GZMm5ejOcLtr8LjB5TRoxZj7X_eP1sneZChbLdFp1vqk6tA3y5nvz9pL19KSpveLHilzTMkU1EAokc6Psvtcr5aVECLbHx2g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="bg-secondary text-on-secondary font-label-sm text-label-sm px-2.5 py-0.5 rounded shadow">Percussion</span>
+<span class="bg-surface-container-highest text-on-surface font-label-sm text-label-sm px-2 py-0.5 rounded shadow">Taal Vidya</span>
+</div>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm px-2 py-0.5 rounded text-secondary font-semibold">
+              Banaras &amp; Delhi Gharana
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="text-secondary font-medium">Bols: Dha, Ge, Na, Ti, Te</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary-container">timer</span> Daily Riyaz</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary group-hover:text-secondary transition-colors">
+                Tabla Shastra &amp; Bols
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Finger dexterity, Peshkar, Kaida variations, dynamic Relas, and mastery of Teentaal, Roopak, Ektaal, and Jhaptal accompaniment for vocalists and solo recitals.
+              </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold block mb-1">Taals &amp; Structures:</span>
+<div class="flex flex-wrap gap-1">
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Teentaal (16 Matras)</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Roopak (7)</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Jhaptal (10)</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Chakradhar Tihais</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Level Range</span>
+<span class="font-label-md text-label-md text-primary font-bold">Prathamik to Visharad</span>
+</div>
+<a class="px-space-md py-1.5 bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-all shadow-sm" data-path="admissions-riyaz-trial" href="#">
+                Enrol Course
+              </a>
+</div>
+</div>
+</div>
+<!-- Card 4: Bansuri (Hindustani Bamboo Flute) -->
+<div class="course-card flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="wind">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional Indian Bansuri bamboo flute laid on antique raw silk cloth, natural warm daylight, fine threading on flute holes, evoking Vrindavan music traditions and peaceful discipline." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtRF_JT6IACihPfnaJJFXVc49p56CRrmREI2FWwgtLzTCm1wny9IjTMYyH0I3E4tJX62r4fxfgdv2dSHxa93UZtll0seYPULJpI91z_u9i2TGXAGEJw-QEQ9IEGk9HLbLzW0hyJ8Hd-uKCLcPU34t_nhompTFrF9INk6nDV99XLsFNLan_BgdTBkdY6K67DUTKd5I1V0gX9lacrc9tXe5u639mA_V7NHMKjvFpcPze"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-0.5 rounded shadow">Wind</span>
+<span class="bg-secondary text-on-secondary font-label-sm text-label-sm px-2 py-0.5 rounded shadow">Bansuri</span>
+</div>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm px-2 py-0.5 rounded text-primary font-semibold">
+              Pt. Hariprasad Pedagogy
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="text-secondary font-medium">Pranayama &amp; Breathwork</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary-container">calendar_month</span> 2-Year Program</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary group-hover:text-secondary transition-colors">
+                Bansuri (Hindustani Bamboo Flute)
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Breath longevity, half-hole finger positioning for komal/teevra swaras, meditative Alaap architecture, and graceful transitions between serene vilambit and joyful drut folk melodies.
+              </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold block mb-1">Specialized Modules:</span>
+<div class="flex flex-wrap gap-1">
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Pranayama Control</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Komal Swara Pitching</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Bhatiyali Folk</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Jhala Dynamics</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Standard</span>
+<span class="font-label-md text-label-md text-primary font-bold">Beginner to Vidwat</span>
+</div>
+<a class="px-space-md py-1.5 bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-all shadow-sm" data-path="admissions-riyaz-trial" href="#">
+                Enrol Course
+              </a>
+</div>
+</div>
+</div>
+<!-- Card 5: Carnatic Vocal & Kriti Sangeet -->
+<div class="course-card flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="vocal">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Carnatic music recital setting with brass lamps (Vilakku), framed portraits of Saint Thyagaraja, maroon silk drape, and devotional traditional ambiance in soft gold light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgKwzToNVT3mK_nodR6ycDrL9WyC0r_mrO9ZXqdxWxp1gALcWwXb_YpZq55pquUxh2fLSpQDv3-6jsTzM6Ksnz6ls8qv241H61Jo1yeJueTEqdQWaOF8eVZVzPj2byeYH1_OVlbNG7uRMVOaKoCE6W0UobFA8zZk_IN-uQE45NIrxyBF0jbRcPwaeTYP7MuHtqKhiHu-7s5BaJlDGXoC6CwCpbPgT8McM6FNhtDfGg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-0.5 rounded shadow">Carnatic</span>
+<span class="bg-tertiary text-on-tertiary font-label-sm text-label-sm px-2 py-0.5 rounded shadow">Kriti Sangita</span>
+</div>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm px-2 py-0.5 rounded text-secondary font-semibold">
+              Trinity Tradition
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="text-secondary font-medium">Gamaka Shuddhi &amp; Tala</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary-container">alarm</span> 3-Year Syllabus</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary group-hover:text-secondary transition-colors">
+                Carnatic Vocal &amp; Kriti Sangeet
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Sarali, Jantai, Alankaras, and rich Varnams progressing to the immortal krithis of Saint Thyagaraja, Muthuswami Dikshitar, Syama Sastri, and Purandara Dasa.
+              </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold block mb-1">Ragas &amp; Tala Foundations:</span>
+<div class="flex flex-wrap gap-1">
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Mayamalavagowla</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Kalyani</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Shankarabharanam</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Adi &amp; Rupaka Tala</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Graduation</span>
+<span class="font-label-md text-label-md text-primary font-bold">Vidwat Certification</span>
+</div>
+<a class="px-space-md py-1.5 bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-all shadow-sm" data-path="admissions-riyaz-trial" href="#">
+                Enrol Course
+              </a>
+</div>
+</div>
+</div>
+<!-- Card 6: Ghazal, Thumri & Semi-Classical -->
+<div class="course-card flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="sugam">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Vintage polished harmonium with ivory keys, ornate brass corners and old Urdu poetic manuscripts illuminated by soft candlelight in a royal Mehfil salon." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtfImE1na2lPzxF5K0_JXNY2xWQJj7SGZpcdOi3d2KVnn8HdzVT6inYyxYkbSyiMHYl-xCMZYcfxGKdJvvln21ACWGhU-GMl73hcJAcW81vUkKsGd6CJP7GpvIwEAEdu6y7zqLXP_3CcYVhxCZL0SDq_zqU0dc8KTa75sWcNP3RcVHV6ZXtikWvWQPouyrfPgyQG7bPnxOrs_rzwl0jmojsIKk-ZskI5qyVVBt4R1z"/>
+<div class="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="bg-secondary text-on-secondary font-label-sm text-label-sm px-2.5 py-0.5 rounded shadow">Semi-Classical</span>
+<span class="bg-tertiary text-on-tertiary font-label-sm text-label-sm px-2 py-0.5 rounded shadow">Mehfil</span>
+</div>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm px-2 py-0.5 rounded text-secondary font-semibold">
+              Lucknow &amp; Benaras Ang
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="text-secondary font-medium">Urdu Talaffuz &amp; Bhava</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary-container">history_edu</span> 1.5 Years</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary group-hover:text-secondary transition-colors">
+                Ghazal, Thumri &amp; Semi-Classical
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Nuanced micro-tonal embellishments (Khatka, Murki, Meend), soulful poetry recitation, emotional bhava projection, and expressive harmonium accompaniment techniques.
+              </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold block mb-1">Poetic Forms &amp; Melodies:</span>
+<div class="flex flex-wrap gap-1">
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Ghalib &amp; Faiz Ghazals</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Dadra &amp; Chaiti</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Thumri Pilu</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Raga Bhairavi</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Certification</span>
+<span class="font-label-md text-label-md text-primary font-bold">Sugam Visharad</span>
+</div>
+<a class="px-space-md py-1.5 bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-all shadow-sm" data-path="admissions-riyaz-trial" href="#">
+                Enrol Course
+              </a>
+</div>
+</div>
+</div>
+<!-- Card 7: Sugam Sangeet & Devotional Bhajans -->
+<div class="course-card flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="sugam">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Spiritual gathering in an ancient stone courtyard with tanpura, manjira cymbals, harmonium, and traditional incense smoke, capturing sacred devotional devotion and peace." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBp20lidwAQ2Wuw6gTQ2gMzAs4Fvwu5ne6r6li3c6OytM6v9lU2tHeBxRLKFoZ_RNOU1sMQGFA_ahsi87lGurntukqMmNV1_TKfa6wOqkWsk5S6SvDhqEEHYplLIZ2v1osRzaPgrzsJ182aL2V06KsLgHjHo2UH4Gn6DJEusiAmZPT-JVi6cyzHERsTDbv89AMZpPnRqHwDtQfvZ8pGhLvcr0CGxp4ORdIOMwEymx6i"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-0.5 rounded shadow">Sugam</span>
+<span class="bg-secondary-container text-on-secondary font-label-sm text-label-sm px-2 py-0.5 rounded shadow">Devotional</span>
+</div>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm px-2 py-0.5 rounded text-primary font-semibold">
+              Bhakti Parampara
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="text-secondary font-medium">Pad Singing &amp; Diction</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary-container">schedule</span> 1-Year Diploma</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary group-hover:text-secondary transition-colors">
+                Sugam Sangeet &amp; Bhajans
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Devotional masterpieces composed in traditional ragas featuring hymns of Sant Kabir, Meerabai, Surdas, and Tulsidas, accompanied by Manjira, Harmonium, and Dholak rhythms.
+              </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold block mb-1">Pad &amp; Taal Study:</span>
+<div class="flex flex-wrap gap-1">
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Kabir Dohe</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Meera Padas</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Keherwa Taal</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Harmonium Chords</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Track</span>
+<span class="font-label-md text-label-md text-primary font-bold">Diploma in Sugam</span>
+</div>
+<a class="px-space-md py-1.5 bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-all shadow-sm" data-path="admissions-riyaz-trial" href="#">
+                Enrol Course
+              </a>
+</div>
+</div>
+</div>
+<!-- Card 8: Western & Classical Fusion Guitar -->
+<div class="course-card flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="strings">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Custom hollow-body acoustic guitar with sitar-style sympathetic strings and brass bridge, resting against a dark wood baithak backdrop with subtle warm glow." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0aFWJ-PvQbPQ0xR4yGCxvTaw3Gh4oXgPm8EcxAE607JJmRx9Qkhp2HdxMUj87WrTVkd1ffENWn4aF5_vzLVPAxzXGKu6CnobFrxLB3dQIljQz4hloLvbae1n_M-nUSrAGBqDrJtMI6SdIq3AOK5wjlHmVrjR1pVhN7qeGBTZ5_jRfRiqnr4HP4aaxLgjiR3fHA1saG29RxccDFuXV5oVQLqDs2ef_A0IyXVKN2vJn"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tertiary/80 via-transparent to-transparent"></div>
+<div class="absolute top-space-sm left-space-sm flex items-center gap-1.5">
+<span class="bg-tertiary text-on-tertiary font-label-sm text-label-sm px-2.5 py-0.5 rounded shadow">Contemporary</span>
+<span class="bg-secondary text-on-secondary font-label-sm text-label-sm px-2 py-0.5 rounded shadow">Raga Fusion</span>
+</div>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm px-2 py-0.5 rounded text-secondary font-semibold">
+              Tantra-Meend Hybrid
+            </span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-1">
+<span class="text-secondary font-medium">Slide Guitar &amp; Modal Scales</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-xs text-secondary-container">tune</span> 2-Year Program</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary group-hover:text-secondary transition-colors">
+                Fusion Guitar &amp; Ragas
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                Adapting Indian classical Thatas, microtonal bends (Meend), and Mohan Veena style Hawaiian slide on acoustic/electric guitar, bridging Western harmony with Eastern melodic soul.
+              </p>
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold block mb-1">Techniques &amp; Concepts:</span>
+<div class="flex flex-wrap gap-1">
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Indian Slide (Veena style)</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Thaat Modes</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Syncopated Tihais</span>
+<span class="text-xs bg-surface-container px-2 py-0.5 rounded text-on-surface-variant">Open Tunings (C-G-C-G)</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Focus</span>
+<span class="font-label-md text-label-md text-primary font-bold">Contemporary Mastery</span>
+</div>
+<a class="px-space-md py-1.5 bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-all shadow-sm" data-path="admissions-riyaz-trial" href="#">
+                Enrol Course
+              </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Curriculum Roadmap: Prathamik to Visharad -->
+<section class="w-full px-margin-mobile md:px-margin py-space-xl bg-surface-container-low">
+<div class="max-w-6xl mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold block mb-space-xs">Progressive Scholastic Framework</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-primary">Academic Degree Progression Roadmap</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Affiliated with Gandharva Mahavidyalaya Mandal. Each level provides rigorous theoretical grounding (*Shastra*) combined with stage-worthy practical riyaz.
+        </p>
+</div>
+<!-- 4-Tier Interactive Steps Timeline -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md relative">
+<!-- Step 1: Prathamik -->
+<div class="bg-surface p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="w-8 h-8 rounded-full bg-primary/10 text-primary font-bold flex items-center justify-center font-label-md text-label-md">01</span>
+<span class="font-label-sm text-label-sm bg-surface-container px-2 py-0.5 rounded text-on-surface-variant font-semibold">Year 1</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-1">Prathamik</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold block mb-space-sm">Swara Sadhana &amp; Fundamentals</span>
+<ul class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Voice pitching on Tanpura Sa-Pa</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Alankars across Bilawal &amp; Kalyan</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Basic Teentaal hand-clapping / Padhant</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>1 Bandish in Raga Bhupali &amp; Yaman</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container text-xs text-on-surface-variant italic">
+            Certificate: Prathamik Diksha
+          </div>
+</div>
+<!-- Step 2: Praveshika -->
+<div class="bg-surface p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="w-8 h-8 rounded-full bg-secondary-container/20 text-secondary font-bold flex items-center justify-center font-label-md text-label-md">02</span>
+<span class="font-label-sm text-label-sm bg-surface-container px-2 py-0.5 rounded text-on-surface-variant font-semibold">Year 2</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-1">Praveshika</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold block mb-space-sm">Raga Expansion &amp; Alaap</span>
+<ul class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Drut Khayal across 5 Core Ragas</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Bols &amp; Sargam improvisation</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Knowledge of 10 Classical Thaats</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Taal Roopak &amp; Jhaptal layas</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container text-xs text-on-surface-variant italic">
+            Certificate: Praveshika Pratham
+          </div>
+</div>
+<!-- Step 3: Madhyama -->
+<div class="bg-surface p-space-lg rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="w-8 h-8 rounded-full bg-tertiary/10 text-tertiary font-bold flex items-center justify-center font-label-md text-label-md">03</span>
+<span class="font-label-sm text-label-sm bg-surface-container px-2 py-0.5 rounded text-on-surface-variant font-semibold">Year 3 &amp; 4</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-1">Madhyama</h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold block mb-space-sm">Vilambit Khayal &amp; Meend</span>
+<ul class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Bada Khayal in Ektaal / Tilwada</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Gamak, Khatka, Murki embellishments</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Comparative study: Bhairav vs Kalingada</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary shrink-0 mt-0.5">check_circle</span>
+<span>Notation writing in Pt. Bhatkhande system</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container text-xs text-on-surface-variant italic">
+            Degree: Madhyama Poorna
+          </div>
+</div>
+<!-- Step 4: Visharad -->
+<div class="bg-primary text-on-primary p-space-lg rounded-xl shadow-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed font-bold flex items-center justify-center font-label-md text-label-md">04</span>
+<span class="font-label-sm text-label-sm bg-primary-container px-2 py-0.5 rounded text-on-primary font-semibold">Graduation</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-primary mb-1">Visharad</h3>
+<span class="font-label-sm text-label-sm text-secondary-fixed font-semibold block mb-space-sm">Stage Recital &amp; Vivaran</span>
+<ul class="flex flex-col gap-1.5 font-body-sm text-body-sm text-on-primary/90">
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary-fixed shrink-0 mt-0.5">verified</span>
+<span>Full solo Baithak performance (45 mins)</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary-fixed shrink-0 mt-0.5">verified</span>
+<span>Rare Ragas: Marwa, Darbari, Malkauns</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary-fixed shrink-0 mt-0.5">verified</span>
+<span>Mastery over Tarana &amp; Dhrupad ang</span>
+</li>
+<li class="flex items-start gap-1.5">
+<span class="material-symbols-outlined text-sm text-secondary-fixed shrink-0 mt-0.5">verified</span>
+<span>Teaching eligibility for Gandharva exams</span>
+</li>
+</ul>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-primary-container text-xs text-secondary-fixed font-medium italic">
+            Conferred: Sangeet Visharad Title
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Riyaz Timings & Batch Schedules -->
+<section class="w-full px-margin-mobile md:px-margin py-space-xl bg-surface">
+<div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-5 flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold mb-space-xs">Daily Academy Rhythm</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-primary leading-tight">
+          Acoustic Riyaz Halls &amp; Structured Batch Timings
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+          Music riyaz demands sacred regularity. Our air-conditioned, teakwood-paneled riyaz rooms are tuned to specific tanpura pitch chambers from early dawn to calm evening baithaks.
+        </p>
+<div class="mt-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-secondary text-2xl">wb_twilight</span>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">Dawn Kharaj Riyaz (Lower Octave Sadhana)</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Recommended for Classical Vocalists &amp; Bansuri breath tuning.</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<span class="material-symbols-outlined text-tertiary text-2xl">groups</span>
+<div>
+<div class="font-label-md text-label-md text-tertiary font-bold">Small Shishya Batches (Max 6 Students)</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Ensuring individualized attention and vocal correction from Gurus.</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Schedule Table Card -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl shadow-md p-space-lg border border-surface-container">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container mb-space-sm">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary">Class Schedule &amp; Slots</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold bg-secondary-fixed/50 px-2 py-0.5 rounded">All Year Admissions</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="text-on-surface-variant font-label-sm text-label-sm border-b border-surface-container">
+<th class="py-2.5 font-bold">Session Type</th>
+<th class="py-2.5 font-bold">Days</th>
+<th class="py-2.5 font-bold">Timing Window</th>
+<th class="py-2.5 font-bold">Availability</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 font-semibold text-primary flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> Morning Prathamik &amp; Vocal
+                </td>
+<td class="py-3 text-on-surface-variant">Mon, Wed, Fri</td>
+<td class="py-3 font-medium text-on-surface">6:30 AM – 8:30 AM</td>
+<td class="py-3"><span class="text-xs bg-surface-container px-2 py-0.5 rounded text-secondary font-semibold">4 Seats Left</span></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 font-semibold text-primary flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> Sitar, Sarod &amp; Tantra
+                </td>
+<td class="py-3 text-on-surface-variant">Tue, Thu, Sat</td>
+<td class="py-3 font-medium text-on-surface">4:30 PM – 6:30 PM</td>
+<td class="py-3"><span class="text-xs bg-surface-container px-2 py-0.5 rounded text-secondary font-semibold">Open</span></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 font-semibold text-primary flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span> Tabla Shastra (All Levels)
+                </td>
+<td class="py-3 text-on-surface-variant">Tue, Thu, Sat</td>
+<td class="py-3 font-medium text-on-surface">6:30 PM – 8:30 PM</td>
+<td class="py-3"><span class="text-xs bg-surface-container px-2 py-0.5 rounded text-secondary font-semibold">3 Seats Left</span></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 font-semibold text-primary flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary"></span> Weekend Intensive Riyaz Batch
+                </td>
+<td class="py-3 text-on-surface-variant">Saturday &amp; Sunday</td>
+<td class="py-3 font-medium text-on-surface">9:00 AM – 1:00 PM</td>
+<td class="py-3"><span class="text-xs bg-primary-container px-2 py-0.5 rounded text-on-primary font-semibold">Filling Fast</span></td>
+</tr>
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3 font-semibold text-primary flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> Ghazal &amp; Sugam Evening Baithak
+                </td>
+<td class="py-3 text-on-surface-variant">Wednesday &amp; Friday</td>
+<td class="py-3 font-medium text-on-surface">6:30 PM – 8:30 PM</td>
+<td class="py-3"><span class="text-xs bg-surface-container px-2 py-0.5 rounded text-secondary font-semibold">Open</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container flex flex-wrap items-center justify-between gap-space-sm">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Need a personalized slot with a Senior Guru?</span>
+<a class="font-label-md text-label-md text-secondary hover:text-primary font-semibold underline underline-offset-4" data-path="admissions-riyaz-trial" href="#">
+            Request 1-on-1 Mentorship Slot →
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Inclusions & Student Privileges Grid -->
+<section class="w-full px-margin-mobile md:px-margin py-space-xl bg-surface-container-low">
+<div class="max-w-6xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-space-lg">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold block mb-space-xs">The JK Shishya Experience</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-primary">Every Enrolment Includes</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Holistic conservatory privileges tailored to support lifelong musical devotion.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="p-space-lg bg-surface rounded-xl shadow-sm hover:shadow-md transition-all">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-2xl">verified_user</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary mb-1">Official Certification</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Eligible to sit for formal Gandharva Mahavidyalaya board practical and theory examinations with pan-India recognition.
+          </p>
+</div>
+<div class="p-space-lg bg-surface rounded-xl shadow-sm hover:shadow-md transition-all">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-secondary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-2xl">meeting_room</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary mb-1">Acoustic Riyaz Halls</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Complimentary 5 hours/week private access to soundproof tanpura-equipped riyaz chambers for focused individual practice.
+          </p>
+</div>
+<div class="p-space-lg bg-surface rounded-xl shadow-sm hover:shadow-md transition-all">
+<div class="w-12 h-12 rounded-lg bg-tertiary/10 text-tertiary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-2xl">theater_comedy</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary mb-1">Stage Baithak Recitals</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Quarterly performance opportunities before seasoned connoisseurs and visiting Maestros at Tansen Memorial Auditorium.
+          </p>
+</div>
+<div class="p-space-lg bg-surface rounded-xl shadow-sm hover:shadow-md transition-all">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-2xl">library_music</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary mb-1">Swara Archive Access</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Unlimited access to our digital repository of rare archival recordings, notation manuscripts, and slow-practice loops.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Banner Section -->
+<section class="w-full px-margin-mobile md:px-margin py-space-xl bg-primary text-on-primary">
+<div class="max-w-4xl mx-auto text-center flex flex-col items-center">
+<div class="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center mb-space-sm text-secondary-fixed">
+<span class="material-symbols-outlined text-2xl">queue_music</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl md:text-display-lg font-bold text-on-primary tracking-tight">
+        Begin Your Riyaz Journey with a Guru
+      </h2>
+<p class="font-body-lg text-body-lg text-primary-fixed mt-space-sm max-w-2xl leading-relaxed">
+        Not sure which Raga discipline suits your voice or fingers? Book a 30-minute complimentary assessment and trial class with our faculty masters.
+      </p>
+<div class="mt-space-lg flex flex-wrap items-center justify-center gap-space-md">
+<a class="px-space-xl py-3 bg-secondary-container hover:bg-secondary text-on-secondary rounded-lg font-label-lg text-label-lg font-semibold shadow-[0_4px_16px_rgba(254,147,44,0.3)] transition-all" data-path="admissions-riyaz-trial" href="#">
+          Book Free Riyaz Trial Class
+        </a>
+<a class="px-space-lg py-3 bg-transparent hover:bg-primary-container text-on-primary rounded-lg font-label-lg text-label-lg font-semibold border border-primary-fixed/40 transition-all" data-path="faculty-gurus" href="#">
+          Meet Our Gurus &amp; Ustads
+        </a>
+</div>
+</div>
+</section>
+<!-- Interactive Tab Filtering Script -->
+<script>
+    function filterCourses(category) {
+      const cards = document.querySelectorAll('.course-card');
+      const buttons = document.querySelectorAll('.filter-btn');
+      let visibleCount = 0;
+
+      // Update button active styling
+      buttons.forEach(btn => {
+        if (btn.getAttribute('data-filter') === category) {
+          btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+          btn.classList.remove('bg-surface', 'text-on-surface');
+        } else {
+          btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          btn.classList.add('bg-surface', 'text-on-surface');
+        }
+      });
+
+      // Filter visible cards
+      cards.forEach(card => {
+        const cardCat = card.getAttribute('data-category');
+        if (category === 'all' || cardCat === category) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      // Update counter
+      const counter = document.getElementById('courseCount');
+      if (counter) {
+        counter.textContent = visibleCount;
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low pt-space-xl pb-space-lg text-on-surface shadow-[0_-4px_24px_rgba(0,0,0,0.03)]"><div class="w-full px-margin mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="JK Music Club Academy Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUGVMNtK2HqIToabIUH2-hQiriFuLP_550qowix1FxXXzagZGYf61veqESb6zVXLzDfq2-Doz5JWedRXiosMJ6LlIfsRc1ZQuPCTZjgurY-WCBs8bXw6nnY95jv1R1-Dci-Ch84WCKncuu1QijMWjlqN3oypzZdRBSWWuy_bn88Ibra9R3Sk8JKvCTpsAdx2jDb4LLQ0d0kR0a8artlGwVaMMoo95y-kna1uX0rw6N"/><span class="font-headline-sm text-headline-sm text-primary font-bold">JK Music Club</span></div><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mt-space-xs">Nurturing the sacred Guru-Shishya Parampara since 1984. Dedicated to classical riyaz culture, authentic pedagogy, and lifelong musical elevation.</p><div class="mt-space-sm inline-flex items-center gap-space-xs bg-surface-container px-space-sm py-1 rounded"><span class="material-symbols-outlined text-secondary text-sm">verified</span><span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Affiliated with Gandharva Mahavidyalaya</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary font-semibold">Classical Disciplines</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer">Hindustani Classical Vocal</li><li class="hover:text-primary transition-colors cursor-pointer">Carnatic Sangita Practice</li><li class="hover:text-primary transition-colors cursor-pointer">Sitar, Sarod &amp; Esraj Strings</li><li class="hover:text-primary transition-colors cursor-pointer">Tabla, Pakhawaj &amp; Mridangam</li><li class="hover:text-primary transition-colors cursor-pointer">Bansuri Bamboo Flute</li><li class="hover:text-primary transition-colors cursor-pointer">Sugam Sangeet &amp; Semi-Classical</li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary font-semibold">Academy &amp; Baithaks</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><li class="hover:text-primary transition-colors cursor-pointer">Tansen Memorial Auditorium</li><li class="hover:text-primary transition-colors cursor-pointer">Acoustic Riyaz Halls &amp; Studios</li><li class="hover:text-primary transition-colors cursor-pointer">Shishya Portal &amp; Swara Library</li><li class="hover:text-primary transition-colors cursor-pointer">Annual Sangeet Utsav Baithaks</li><li class="hover:text-primary transition-colors cursor-pointer">Graduation Degrees &amp; Certification</li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary font-semibold">Sangeet Mandir</span><div class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-secondary text-base mt-1">location_on</span><span>48 Sangeet Bharati Marg, Cultural Enclave, New Delhi 110001</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-base">call</span><span>+91 (011) 2341 8920 / 8921</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-base">mail</span><span>vidya@jkmusicclub.org</span></div><div class="flex items-center gap-space-xs mt-space-xs"><span class="material-symbols-outlined text-secondary text-base">schedule</span><span class="font-label-md text-label-md text-on-surface font-medium">Riyaz Timings: 6:00 AM – 9:00 PM</span></div></div></div></div><div class="w-full px-margin mx-auto pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant"><span class="font-body-sm text-body-sm">© 2025 JK Music Club Academy of Music. All Rights Reserved.</span><div class="flex items-center gap-space-xs text-secondary"><span class="material-symbols-outlined text-sm">music_note</span><span class="font-label-sm text-label-sm italic text-on-surface-variant">Dedicated to preserving the eternal legacy of Indian Ragas.</span></div></div></footer></body></html>
